@@ -1,0 +1,186 @@
+/*==========Etape 1:reset css et hetml globaux ======*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*style universel body*/
+body{
+    font-family: 'Segoe UI', Roboto, arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: black;
+    background-color: white;
+}
+/*typographie et couleurs*/
+h1{
+font-size: 2.5em;
+color: white;
+margin-bottom: 10px;
+}
+h2{
+    font-size: 1.8em;
+    color: blue;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid red;
+}
+h3{
+    font-size: 1.3em;
+    color: green;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+/*paragraphes*/
+p{
+    margin-bottom: 15px;
+    color: black;
+}
+/*liens*/
+a{
+    color: red;
+    text-decoration: none;
+    transition: color 0.3s ease;/*transition*/
+}
+a:hover{
+    text-decoration: underline;
+    color:blue;
+}
+ul{
+    margin-bottom: 15px;
+    padding-left: 25px;
+}
+li{
+    margin-bottom: 8px;
+}
+/*texte en gras et italique*/
+strong{
+    color:red;
+}
+em{
+    font-style: italic;
+    color: green;
+}
+/*header et navigation*/
+header{
+    background-color: #2E7D32;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+/*titre principal dans le header*/
+header h1{
+    color: white;
+    font-size: 2.5em;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+/*sous-titre/descriptiondans le header*/
+header > p{
+    font-size: 1.2em;
+    font-style: italic;
+    color: #2E7D32;
+    margin-bottom: 20px;
+}
+/*navigation*/
+nav ul{
+    list-style: none;/*supprime les puces*/
+    padding: 0;
+    margin-top: 20px;
+}
+nav li{
+    display: inline-block;/*element sont cote a cote*/
+    margin: 0 15px;
+
+}
+nav a{
+    color: white;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+nav a:hover{
+    background-color: rgb(255, 255,255,0.2);
+    text-decoration: none;
+    color: white;
+}
+/*======etape 4:section de contenu====*/
+/*-------style commun a toute les sections----*/
+section{
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+/*alternance de fond pour les sections (bonus)*/
+section:nth-child(even){
+    background-color: rgb(136, 151, 157);
+}
+    /*Section A propos*/
+    /*image de profil ronde*/
+    #a-propos img{
+        border-radius: 50%;
+        border: 3px solid #2E7D32;
+        display: block;
+        margin: 0 auto 20px auto;/*centrage horizontale*/
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    
+.formulaire{
+    border: 2px solid green;
+    padding: 30px;
+    margin: 0 auto;
+    font-family: Arial,sans-serif;
+    border-radius: 12px;
+    width: 320px;
+    box-shadow: 0  8px 15px rgb(152, 167, 170);
+    animation: apparition 0.6s ease;
+    background-color: #aad0de;
+    margin-bottom: 20px;
+    
+}
+input,select{
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid green;
+    transition: 0.3s ease;
+}
+input:focus, select:focus{
+    border-color: green;
+    box-shadow: 0 0 0 3px green;
+    outline: none;
+    border: 0.2px solid #2E7D32 ;
+}
+.formulaire-group{
+    margin-bottom: 20px;
+}
+.p-page{
+    background-color:  #928c8c; 
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 30px 20px;
+    text-align: center;
+    margin: 10PX;
+}
+    
+footer a {
+  color: black;               /* Vert clair pour les liens */
+}
+footer a:hover {
+  color: white;
+  text-decoration: underline;
+}
+label{
+    display: block;
+    margin-bottom: 6px;
+}
+#soumettre{
+    background-color: #2E7D32;
+}
+#checkbox{
+    color: white;
+}
