@@ -1,0 +1,171 @@
+ {
+  box-sizing: border-box; /* Les paddings n'augmentent pas la taille */
+  margin: 0;
+  padding: 0;
+}
+
+/* Scroll fluide quand on clique sur un lien d'ancre */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Style général */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    background-color:#f4f6f5;
+    color:#333;
+}
+
+/* Header */
+header{
+    color: gray;
+    background:#1b5e20;
+    display: flex;
+  flex-direction:row ;
+  gap: 50px;
+  justify-content: space-between;
+  text-align: center;
+  height:120px
+}
+
+/* Menu */
+nav ul{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:0;
+    list-style: none;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+
+nav a:hover{
+    text-decoration:underline;
+}
+
+/* Sections */
+section{
+    padding:40px;
+    margin:auto;
+    max-width:1000px;
+}
+#a-propos p{
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.6;
+}
+/* Titres */
+h2{
+    text-align:center;
+    color:#1b5e20;
+    margin-bottom:30px;
+}
+
+/* Profil */
+.profil{
+    display:flex;
+    align-items:center;
+    gap:px;
+}
+
+.profil img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    border:4px solid #1b5e20;
+}
+
+/* Compétences */
+.competences-container{
+    display:flex;
+    justify-content:center;
+    gap: 40px;
+    margin-top: 30px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.bloc{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    width:220px;
+    box-shadow:0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.bloc ul{
+    
+    padding:0;
+    text-align: center;
+    text-decoration:none ;
+    list-style: none;
+}
+
+.bloc li{
+    margin:8px 0;
+    text-decoration: none;
+}
+
+/* Parcours */
+#parcours ul{
+    list-style:none;
+    padding:0;
+    text-align:center;
+}
+
+/* Formulaire */
+.formulaire{
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.champ{
+display:flex;
+flex-direction:column;
+}
+
+label{
+font-weight:bold;
+margin-bottom:5px;
+}
+
+input, select, textarea{
+padding:10px;
+border:1px solid #ccc;
+border-radius:5px;
+font-size:14px;
+}
+
+button{
+background-color:green;
+color:white;
+padding:12px;
+}
+
+button:hover{
+    background:#2e7d32;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    background:#1b5e20;
+    color:white;
+    text-align:center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:15px;
+    margin-top:40px;
+}
+nav{
+    margin: 0 15px;
+}

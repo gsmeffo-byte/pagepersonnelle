@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 * {
+=======
+**{
+>>>>>>> c2ab4252780727f718d81b1956f3a0fa4f46dbac
   box-sizing: border-box; /* Les paddings n'augmentent pas la taille */
   margin: 0;
   padding: 0;
@@ -114,6 +118,7 @@ h2{
 }
 
 /* Parcours */
+<<<<<<< HEAD
 /* Section parcours */
 #parcours {
     padding: 60px 20px;
@@ -202,6 +207,38 @@ border-radius:5px;
 font-size:14px;
 }
 
+=======
+#parcours ul{
+    list-style:none;
+    padding:0;
+    text-align:center;
+}
+
+/* Formulaire */
+.formulaire{
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.champ{
+display:flex;
+flex-direction:column;
+}
+
+label{
+font-weight:bold;
+margin-bottom:5px;
+}
+
+input, select, textarea{
+padding:10px;
+border:1px solid #ccc;
+border-radius:5px;
+font-size:14px;
+}
+
+>>>>>>> c2ab4252780727f718d81b1956f3a0fa4f46dbac
 button{
 background-color:green;
 color:white;
